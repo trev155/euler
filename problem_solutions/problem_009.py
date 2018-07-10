@@ -2,7 +2,6 @@
 Problem 9 - Special Pythagorean Triplet
 https://projecteuler.net/problem=9
 """
-import math
 
 
 def special_pythagorean_triplet():
