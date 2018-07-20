@@ -31,6 +31,5 @@ def fib(n):
 
 
 if __name__ == "__main__":
-    fib_terms = {}
     answer = thousand_digit_fibonacci()
     print(answer)
