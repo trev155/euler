@@ -35,7 +35,7 @@ def amicable_numbers():
 def proper_divisors(n):
     divisors = set()
     for i in range(1, int(math.ceil(math.sqrt(n))) + 1):
-        if n % i == 0:
+        if n % i == 0 and n != i:
             divisors.add(i)
             if i != 1:
                 divisors.add(n // i)
